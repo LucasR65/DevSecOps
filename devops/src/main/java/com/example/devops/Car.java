@@ -15,20 +15,20 @@ public class Car {
         return plateNumber;
     }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
     public void setPlateNumber(String plateNumber) {
         this.plateNumber = plateNumber;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    public int getPrice() {
+        return price;
     }
 
     public void setPrice(int price) {
