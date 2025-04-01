@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.devops.DevopsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-25T16:43:10.065Z" hostname="LAPTOP-EJFFLL3H" time="2.077">
+<testsuite name="com.example.devops.DevopsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-01T12:51:43.378Z" hostname="LAPTOP-EJFFLL3H" time="2.214">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.devops.DevopsApplicationTests" time="2.077"/>
-  <system-out><![CDATA[17:43:06.052 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.devops.DevopsApplicationTests]: DevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:43:06.346 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.devops.DevopsApplication for test class com.example.devops.DevopsApplicationTests
+  <testcase name="contextLoads()" classname="com.example.devops.DevopsApplicationTests" time="2.214"/>
+  <system-out><![CDATA[14:51:37.882 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.devops.DevopsApplicationTests]: DevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:51:38.315 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.devops.DevopsApplication for test class com.example.devops.DevopsApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-03-25T17:43:07.658+01:00  INFO 16984 --- [devops] [    Test worker] c.example.devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 21.0.6 with PID 16984 (started by lafes in C:\CoursEfrei\VueJS\TP_Machine\DevSecOps\devops)
-2025-03-25T17:43:07.662+01:00  INFO 16984 --- [devops] [    Test worker] c.example.devops.DevopsApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2025-03-25T17:43:10.041+01:00  INFO 16984 --- [devops] [    Test worker] c.example.devops.DevopsApplicationTests  : Started DevopsApplicationTests in 3.163 seconds (process running for 8.299)
+2025-04-01T14:51:39.806+02:00  INFO 20680 --- [devops] [    Test worker] c.example.devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 21.0.6 with PID 20680 (started by lafes in C:\CoursEfrei\VueJS\TP_Machine\DevSecOps\devops)
+2025-04-01T14:51:39.810+02:00  INFO 20680 --- [devops] [    Test worker] c.example.devops.DevopsApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-04-01T14:51:43.324+02:00  INFO 20680 --- [devops] [    Test worker] c.example.devops.DevopsApplicationTests  : Started DevopsApplicationTests in 4.321 seconds (process running for 8.15)
 ]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (C:\Users\lafes\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
