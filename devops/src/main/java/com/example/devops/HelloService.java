@@ -20,6 +20,8 @@ public class HelloService {
         cars.add(car);
         car = new Car("AA22VV", "dacia", 500);
         cars.add(car);
+        car = new Car("AA23VV", "dacia", 500);
+        cars.add(car);
     }
 
 
